@@ -34,23 +34,26 @@ SymPy (optional math solving)
 
 Wikipedia API (optional lookups)
 
-📁 Folder Structure
-mathsgpt/
-│
-├── maths-gpt-frontend/       # Full React frontend (Vite + TS + Tailwind)
-│   ├── src/
-│   │   ├── App.tsx
-│   │   ├── main.tsx
-│   │   ├── index.css
-│   │   └── components/ (if any)
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.ts
-│   └── tailwind/postcss configs
-│
-├── app.py                    # Python backend (Streamlit + LangChain + SymPy)
-├── requirements.txt          # Python dependencies
-└── README.md                 # You're reading it!
+## 📁 Folder Structure
+
+mathsgpt/  
+│  
+├── maths-gpt-frontend/                     # Full React frontend (Vite + TS + Tailwind)  
+│   ├── src/      
+│   │   ├── App.tsx      
+│   │   ├── main.tsx      
+│   │   ├── index.css      
+│   │   └── components/                     # Optional components  
+│   ├── index.html      
+│   ├── package.json      
+│   ├── vite.config.ts      
+│   ├── tailwind.config.js      
+│   └── postcss.config.js      
+│        
+├── app.py                                    # Python backend (Streamlit + LangChain + SymPy)  
+├── requirements.txt                          # Python dependencies  
+└── README.md                                # Documentation  
+
 
 ⚙️ Installation & Setup
 🖥️ 1. Clone the Repository
