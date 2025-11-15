@@ -38,20 +38,20 @@ Wikipedia API (optional lookups)
 
 mathsgpt/
 │
-├── maths-gpt-frontend/ # Full React frontend (Vite + TS + Tailwind)
-│ ├── src/
-│ │ ├── App.tsx
-│ │ ├── main.tsx
-│ │ ├── index.css
-│ │ └── components/ # (optional UI components)
-│ ├── index.html
-│ ├── package.json
-│ ├── vite.config.ts
-│ └── tailwind.config.js / postcss.config.js
-│
-├── app.py # Python backend (Streamlit + LangChain + SymPy)
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── maths-gpt-frontend/ # Full React frontend (Vite + TS + Tailwind)  
+│ ├── src/  
+│ │ ├── App.tsx  
+│ │ ├── main.tsx  
+│ │ ├── index.css  
+│ │ └── components/ # (optional UI components)  
+│ ├── index.html  
+│ ├── package.json  
+│ ├── vite.config.ts  
+│ └── tailwind.config.js / postcss.config.js  
+│  
+├── app.py # Python backend (Streamlit + LangChain + SymPy)  
+├── requirements.txt # Python dependencies  
+└── README.md # Project documentation  
 
 ⚙️ Installation & Setup
 🖥️ 1. Clone the Repository
